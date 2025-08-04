@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Aashish Kumar",
+        "position": "Frontend Developer",
+        "email": "aashish.kumar@example.com",
+        "image": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+        "name": "Ravi Verma",
+        "position": "Backend Developer",
+        "email": "ravi.verma@example.com",
+        "image": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+        "name": "Priya Singh",
+        "position": "HR Executive",
+        "email": "priya.singh@example.com",
+        "image": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+        "name": "Nikhil Sharma",
+        "position": "Frontend Developer",
+        "email": "nikhil.sharma@example.com",
+        "image": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+        "name": "Simran Kaur",
+        "position": "Backend Developer",
+        "email": "simran.kaur@example.com",
+        "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+        "name": "Aryan Jain",
+        "position": "HR Executive",
+        "email": "aryan.jain@example.com",
+        "image": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+        "name": "Megha Kapoor",
+        "position": "Frontend Developer",
+        "email": "megha.kapoor@example.com",
+        "image": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+        "name": "Rohit Sinha",
+        "position": "Backend Developer",
+        "email": "rohit.sinha@example.com",
+        "image": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+        "name": "Anjali Mehta",
+        "position": "HR Executive",
+        "email": "anjali.mehta@example.com",
+        "image": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+        "name": "Manish Rawat",
+        "position": "Frontend Developer",
+        "email": "manish.rawat@example.com",
+        "image": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+        "name": "Kritika Rana",
+        "position": "Backend Developer",
+        "email": "kritika.rana@example.com",
+        "image": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+        "name": "Yash Patel",
+        "position": "HR Executive",
+        "email": "yash.patel@example.com",
+        "image": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+        "name": "Sakshi Yadav",
+        "position": "Frontend Developer",
+        "email": "sakshi.yadav@example.com",
+        "image": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+        "name": "Tushar Joshi",
+        "position": "Backend Developer",
+        "email": "tushar.joshi@example.com",
+        "image": "https://i.pravatar.cc/150?img=14"
+    },
+    {
+        "name": "Neha Bansal",
+        "position": "HR Executive",
+        "email": "neha.bansal@example.com",
+        "image": "https://i.pravatar.cc/150?img=15"
+    },
+    {
+        "name": "Aditya Chauhan",
+        "position": "Frontend Developer",
+        "email": "aditya.chauhan@example.com",
+        "image": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+        "name": "Pooja Goyal",
+        "position": "Backend Developer",
+        "email": "pooja.goyal@example.com",
+        "image": "https://i.pravatar.cc/150?img=17"
+    },
+    {
+        "name": "Deepak Tyagi",
+        "position": "HR Executive",
+        "email": "deepak.tyagi@example.com",
+        "image": "https://i.pravatar.cc/150?img=18"
+    },
+    {
+        "name": "Ishita Malhotra",
+        "position": "Frontend Developer",
+        "email": "ishita.malhotra@example.com",
+        "image": "https://i.pravatar.cc/150?img=19"
+    },
+    {
+        "name": "Abhishek Rana",
+        "position": "Backend Developer",
+        "email": "abhishek.rana@example.com",
+        "image": "https://i.pravatar.cc/150?img=20"
+    },
+    {
+        "name": "Kavita Bhatt",
+        "position": "HR Executive",
+        "email": "kavita.bhatt@example.com",
+        "image": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+        "name": "Varun Saxena",
+        "position": "Frontend Developer",
+        "email": "varun.saxena@example.com",
+        "image": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+        "name": "Naina Arora",
+        "position": "Backend Developer",
+        "email": "naina.arora@example.com",
+        "image": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+        "name": "Saurabh Jha",
+        "position": "HR Executive",
+        "email": "saurabh.jha@example.com",
+        "image": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+        "name": "Divya Das",
+        "position": "Frontend Developer",
+        "email": "divya.das@example.com",
+        "image": "https://i.pravatar.cc/150?img=25"
+    },
+    {
+        "name": "Harshit Bhagat",
+        "position": "Backend Developer",
+        "email": "harshit.bhagat@example.com",
+        "image": "https://i.pravatar.cc/150?img=26"
+    },
+    {
+        "name": "Tanvi Sethi",
+        "position": "HR Executive",
+        "email": "tanvi.sethi@example.com",
+        "image": "https://i.pravatar.cc/150?img=27"
+    },
+    {
+        "name": "Vivek Kohli",
+        "position": "Frontend Developer",
+        "email": "vivek.kohli@example.com",
+        "image": "https://i.pravatar.cc/150?img=28"
+    },
+    {
+        "name": "Sneha Rathi",
+        "position": "Backend Developer",
+        "email": "sneha.rathi@example.com",
+        "image": "https://i.pravatar.cc/150?img=29"
+    },
+    {
+        "name": "Rajat Mathur",
+        "position": "HR Executive",
+        "email": "rajat.mathur@example.com",
+        "image": "https://i.pravatar.cc/150?img=30"
+    }
+]
