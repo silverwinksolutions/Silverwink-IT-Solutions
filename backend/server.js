@@ -7,8 +7,7 @@ import cookieParser from 'cookie-parser';
 import userRoute from './routes/userRoute.js'
 import employeeRoute from './routes/employeeRoute.js'
 const app = express();
-const port = 3000
-const hostname = 'localhost'
+const port = process.env.PORT || 3000;
 
 app.use(cors({
     origin: [
@@ -31,5 +30,5 @@ app.use('/user', userRoute)
 app.use('/employee', employeeRoute)
 
 app.listen(port, () => {
-    console.log(`Example app listening on port http://${hostname}:${port}`)
-})
+    console.log(`Server running on port ${port}`);
+});
