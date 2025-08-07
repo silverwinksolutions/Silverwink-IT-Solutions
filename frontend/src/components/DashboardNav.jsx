@@ -4,6 +4,7 @@ import { IoMdNotifications } from "react-icons/io";
 import { FaUserAlt } from "react-icons/fa";
 import { AppContext } from '../contexts/AppContextProvider';
 import { toast } from 'sonner';
+import { NavLink } from 'react-router-dom';
 
 const DashboardNav = () => {
     const { navigate, setToken } = useContext(AppContext)
@@ -42,20 +43,22 @@ const DashboardNav = () => {
             <div className="w-full h-16 border-b pr-14 md:px-0">
                 <nav className="flex  items-center justify-between mx-auto max-w-screen-xl px-4 py-1 sm:px-6 lg:px-10">
                     {/* Logo section */}
-                    <div className="flex justify-center items-center gap-3">
-                        <img
-                            src={sitelogo}
-                            alt="Silverwink Logo"
-                            width={50}
-                            className="cursor-pointer"
-                        />
-                        <div className="flex flex-col items-start sm:items-center cursor-pointer leading-tight">
-                            <h1 className="text-[#f0b249] text-base sm:text-lg md:text-xl font-semibold">SILVERWINK</h1>
-                            <p className="text-[10px] sm:text-sm text-gray-500 font-light tracking-wide">
-                                IT SOLUTIONS
-                            </p>
+                    <NavLink to='/' >
+                        <div className="flex justify-center items-center gap-3">
+                            <img
+                                src={sitelogo}
+                                alt="Silverwink Logo"
+                                width={50}
+                                className="cursor-pointer"
+                            />
+                            <div className="flex flex-col items-start sm:items-center cursor-pointer leading-tight">
+                                <h1 className="text-[#f0b249] text-base sm:text-lg md:text-xl font-semibold">SILVERWINK</h1>
+                                <p className="text-[10px] sm:text-sm text-gray-500 font-light tracking-wide">
+                                    IT SOLUTIONS
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </NavLink>
 
 
                     <div className="flex  justify-center  items-center gap-3 sm:gap-6 sm:w-auto">
@@ -70,7 +73,7 @@ const DashboardNav = () => {
                             />
                             <button
                                 type="submit"
-                                className="bg-[#f0b249] hover:bg-yellow-500 px-4 py-2 rounded-r-md text-black font-medium"
+                                className="bg-[#f0b249] hover:bg-yellow-500 px-4 py-2 rounded-r-md  text-black font-medium"
                             >
                                 Search
                             </button>

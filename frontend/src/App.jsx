@@ -19,6 +19,7 @@ import Department from './pages/Department.jsx';
 import Attendance from './pages/Attendance.jsx';
 import Leave from './pages/Leave.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
+import Career from './pages/Career.jsx';
 
 const App = () => {
   const location = useLocation();
@@ -28,6 +29,7 @@ const App = () => {
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
+          <Route path='/career' element={<Career />} />
           <Route path='/login' element={<Loginpage />} />
           <Route path="/dashboard" element={<ProtectedRoute> <Dashboard /> </ProtectedRoute>}>
             <Route index element={<DashboardHero />} />

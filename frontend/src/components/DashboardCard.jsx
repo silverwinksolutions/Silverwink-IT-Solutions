@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaUsers } from 'react-icons/fa';
+import ScrollCountUp from './ScrollCountup';
 
 const DashboardCard = ({ title, count, icon: Icon, bgColor }) => {
   return (
@@ -9,7 +10,8 @@ const DashboardCard = ({ title, count, icon: Icon, bgColor }) => {
       </div>
       <div>
         <p className="text-lg text-center font-medium">{title}</p>
-        <h2 className="text-2xl text-center font-bold">{count}</h2>
+        <h2 className="text-2xl text-center font-bold"><ScrollCountUp end={count} duration={5}/></h2>
+        
       </div>
     </div>
   );

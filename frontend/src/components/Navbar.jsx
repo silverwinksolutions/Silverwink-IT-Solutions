@@ -76,7 +76,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='group relative'>
-                        <NavLink to='/page' className="flex flex-col items-center gap-1">
+                        <NavLink className="flex flex-col items-center gap-1">
                             <p>PAGE</p>
                             <span className="h-[2px] w-0 bg-black transition-all duration-300 group-hover:w-full origin-center"></span>
                         </NavLink>
@@ -91,7 +91,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='group relative'>
-                        <NavLink to='/services' className="flex flex-col items-center gap-1">
+                        <NavLink className="flex flex-col items-center gap-1">
                             <p>SERVICES</p>
                             <span className="h-[2px] w-0 bg-black transition-all duration-300 group-hover:w-full origin-center"></span>
                         </NavLink>
@@ -105,22 +105,22 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <NavLink to='/shop' className="flex group flex-col items-center gap-1">
-                        <p>SHOP</p>
+                    <NavLink to="/career" className="flex group flex-col items-center gap-1">
+                        <p>CAREER</p>
                         <span className="h-[2px] w-0 bg-black transition-all duration-300 group-hover:w-full origin-center"></span>
                     </NavLink>
-                    <NavLink to='/news' className="flex group flex-col items-center gap-1">
+                    <NavLink className="flex group flex-col items-center gap-1">
                         <p>NEWS</p>
                         <span className="h-[2px] w-0 bg-black transition-all duration-300 group-hover:w-full origin-center"></span>
                     </NavLink>
                     <div className='group relative'>
-                        <NavLink to='/contact' className="flex flex-col items-center gap-1">
+                        <NavLink className="flex flex-col items-center gap-1">
                             <p>CONTACT</p>
                             <span className="h-[2px] w-0 bg-black transition-all duration-300 group-hover:w-full origin-center"></span>
                         </NavLink>
                         <div className='absolute z-20 py-5 w-52 left-1/2 transform -translate-x-1/2 opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-600 ease-in-out pointer-events-none group-hover:pointer-events-auto'>
                             <div className=' border bg-white'>
-                                <div className='text-center hover:bg-amber-100 hover:cursor-pointer py-2 border-b border-gray-500'>OPTION 1</div>
+                                <NavLink to="/career"><div className='text-center hover:bg-amber-100 hover:cursor-pointer py-2 border-b border-gray-500'>CAREER</div></NavLink>
                                 <div className='text-center hover:bg-amber-100 hover:cursor-pointer py-2 border-b border-gray-500'>OPTION 1</div>
                                 <div className='text-center hover:bg-amber-100 hover:cursor-pointer py-2 border-b border-gray-500'>OPTION 1</div>
                                 <div className='text-center hover:bg-amber-100 hover:cursor-pointer py-2 border-b border-gray-500'>OPTION 1</div>
@@ -149,11 +149,11 @@ const Navbar = () => {
                 </div>
                 <ul className='flex flex-col gap-4 text-center py-4'>
                     <NavLink onClick={() => setIsOpen(false)} to='/' className="hover:text-[#f0b249] hover:bg-black w-full h-full border-b">HOME</NavLink>
-                    <NavLink onClick={() => setIsOpen(false)} to='/page' className="hover:text-[#f0b249] hover:bg-black w-full border-b">PAGE</NavLink>
-                    <NavLink onClick={() => setIsOpen(false)} to='/services' className="hover:text-[#f0b249] hover:bg-black w-full border-b">SERVICES</NavLink>
-                    <NavLink onClick={() => setIsOpen(false)} to='/shop' className="hover:text-[#f0b249] hover:bg-black w-full border-b">SHOP</NavLink>
-                    <NavLink onClick={() => setIsOpen(false)} to='/news' className="hover:text-[#f0b249] hover:bg-black w-full border-b">NEWS</NavLink>
-                    <NavLink onClick={() => setIsOpen(false)} to='/contact' className="hover:text-[#f0b249] hover:bg-black w-full border-b">CONTACT</NavLink>
+                    <NavLink onClick={() => setIsOpen(false)} to='#' className="hover:text-[#f0b249] hover:bg-black w-full border-b">PAGE</NavLink>
+                    <NavLink onClick={() => setIsOpen(false)} to='#' className="hover:text-[#f0b249] hover:bg-black w-full border-b">SERVICES</NavLink>
+                    <NavLink onClick={() => setIsOpen(false)} to='/career' className="hover:text-[#f0b249] hover:bg-black w-full border-b">CAREER</NavLink>
+                    <NavLink onClick={() => setIsOpen(false)} to='#' className="hover:text-[#f0b249] hover:bg-black w-full border-b">NEWS</NavLink>
+                    <NavLink onClick={() => setIsOpen(false)} to='#' className="hover:text-[#f0b249] hover:bg-black w-full border-b">CONTACT</NavLink>
                 </ul>
                 <div className='flex items-center justify-center'>
                     <div className='  flex md:hidden lg:flex justify-self-auto  lg:w-32 items-center gap-4 lg:gap-5'>

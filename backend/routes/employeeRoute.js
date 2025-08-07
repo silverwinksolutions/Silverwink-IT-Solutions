@@ -1,8 +1,8 @@
 import express from 'express'
-import { getAll } from '../controllers/employeeController.js';
+import { getCount } from '../controllers/employeeController.js';
 const router = express.Router();
 
-router.get('/all', getAll)
+router.get('/count', getCount)
 
 
 export default router
